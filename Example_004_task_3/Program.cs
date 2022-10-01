@@ -1,10 +1,10 @@
 ﻿
 int number = new Random().Next(100,999);
-Console.WriteLine("number");
-int index = 0;
+Console.WriteLine(number);
+int x = number / 10 ;
+int y = x % 10;
 
-int index = (index + 1);
+Console.WriteLine(y);
 
-Console.WriteLine(number(index));
 
 
